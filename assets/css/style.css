@@ -473,11 +473,11 @@ section {
 }
 
 .btn a{
-  color: #149ddd;
+  color: #040b14;
 }
 
 .btn:hover{
-  background-color: #040b14;
+  background-color: rgb(78, 159, 78);
 }
 
 .resume .resume-item ul {
