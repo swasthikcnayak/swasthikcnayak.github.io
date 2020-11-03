@@ -453,6 +453,7 @@ section {
   margin-bottom: 10px;
 }
 
+
 .resume .resume-item h5 {
   font-size: 16px;
   background: #e4edf9;
@@ -460,6 +461,24 @@ section {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+.resume .resume-item .project{
+  background: none;
+  font-size: 20px;
+}
+
+.btn{
+  background-color: #e4edf9;
+  font-size: 1px;
+}
+
+.btn a{
+  color: #149ddd;
+}
+
+.btn:hover{
+  background-color: #040b14;
 }
 
 .resume .resume-item ul {
