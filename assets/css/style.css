@@ -173,6 +173,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #149ddd;
 }
 
+.active{
+  text-decoration: none;
+  color: #fff;
+}
+
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
@@ -181,16 +186,13 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9998;
   border: 0;
   background: none;
+  color: rgb(149, 187, 143);
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
   line-height: 1;
   cursor: pointer;
   text-align: right;
-}
-
-.mobile-nav-toggle i {
-  color: #149ddd;
 }
 
 .mobile-nav-active {
@@ -202,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #fff;
+  color: rgb(149, 187, 143);
 }
 
 /*--------------------------------------------------------------
